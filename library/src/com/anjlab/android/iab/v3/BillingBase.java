@@ -26,7 +26,6 @@ class BillingBase {
 	private WeakReference<Activity> contextReference;
 
 	public BillingBase(Activity context) {
-        this.context = context;
 		contextReference = new WeakReference<Activity>(context);
 	}
 
